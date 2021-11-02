@@ -9,12 +9,12 @@ intentos = 0
 givenNumber = input('Adivina el número: ')
 while not givenNumber.isdigit():
     givenNumber = input('Introduzca un número válido: ')
-if givenNumber != number:
-    if givenNumber > number:
+if int(givenNumber) != number:
+    if int(givenNumber) > number:
         intentos =+ 1
         print('No has acertado, te has pasado.\nYa llevas ' + str(intentos) + ' intentos.')
-    elif givenNumber < number:
+    elif int(givenNumber) < number:
         intentos =+ 1
         print('No has acertado, te has quedado corto.\nYa llevas ' + str(intentos) + ' intentos.')
-if givenNumber == number:
+if int(givenNumber) == number:
     print('Has acertado! Lo ha conseguido en ' + str(intentos) + ' intentos.')
