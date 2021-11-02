@@ -1,6 +1,7 @@
 # Imports
 from itertools import permutations
 import random
+
 # Declaramos las variables
 number = random.randint(0,99)
 intentos = 0
