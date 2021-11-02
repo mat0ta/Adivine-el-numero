@@ -24,6 +24,6 @@ while int(givenNumber) != number:
         while not givenNumber.isdigit():
             givenNumber = input('Introduzca un número válido: ')
 if int(givenNumber) == number:
-    print('¡Has acertado! Lo ha conseguido en ' + str(intentos) + ' intentos.')
+    print('¡Has acertado! Lo has conseguido en ' + str(intentos) + ' intentos.')
 
 # End
