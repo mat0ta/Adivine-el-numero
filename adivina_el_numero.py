@@ -5,9 +5,9 @@ import random
 # Declaramos las variables
 number = random.randint(0,99)
 intentos = 0
+givenNumber = input('Adivina el número: ')
 
 # Main Code
-givenNumber = input('Adivina el número: ')
 while not givenNumber.isdigit():
     givenNumber = input('Introduzca un número válido: ')
 while int(givenNumber) != number:
