@@ -20,3 +20,5 @@ while int(givenNumber) != number:
         givenNumber = input('Intentalo de nuevo: ')
 if int(givenNumber) == number:
     print('Has acertado! Lo ha conseguido en ' + str(intentos) + ' intentos.')
+
+# End
