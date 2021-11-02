@@ -2,4 +2,6 @@ import random
 
 number = random.randint(0,99)
 
-print(number)
+givenNumber = input('Adivina el número: ')
+while not givenNumber.isdigit():
+    givenNumber = input('Introduzca un número válido: ')
