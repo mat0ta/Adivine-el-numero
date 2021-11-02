@@ -13,6 +13,7 @@ if int(givenNumber) != number:
     if int(givenNumber) > number:
         intentos =+ 1
         print('No has acertado, te has pasado.\nYa llevas ' + str(intentos) + ' intentos.')
+        givenNumber = input('Intentalo de nuevo: ')
     elif int(givenNumber) < number:
         intentos =+ 1
         print('No has acertado, te has quedado corto.\nYa llevas ' + str(intentos) + ' intentos.')
