@@ -1,5 +1,6 @@
+# Imports
 import random
-
+# Declaramos las variables
 number = random.randint(0,99)
 
 givenNumber = input('Adivina el número: ')
